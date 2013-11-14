@@ -1,0 +1,6 @@
+#accordion { width:638px; }
+#accordion div { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4); padding:22px 22px 7px 22px; }
+#accordion p { margin-bottom:15px; border:none; text-decoration:none; }
+#accordion a { cursor:pointer; display:block; padding:10px 22px; margin-top:0; font-weight:bold; background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7); border-top:1px solid #000; border-bottom:1px solid #111; text-shadow:0 1px 1px #000; }
+#accordion a:hover { color:#000; background:#EA9D76; text-shadow:0 1px 1px #fec0a0; }
+#accordion a.selected { color:#000; background:#EA9D76; text-shadow:0 1px 1px #fec0a0; }

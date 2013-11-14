@@ -1,0 +1,10 @@
+/*TABS*/
+.tabs { padding:30px; height:auto!important; position:relative; border-bottom: 1px solid #E1E1E1; }
+.tab-menu { margin: 0; padding: 0; float: left; list-style: none; height: 40px; /*--Set height of tabs--*/ border-bottom: 1px solid #000; width: 100%; }
+.tab-menu li { float: left; margin:0 6px 0 0; padding:0; line-height: 31px; /*--Vertically aligns the text within the tab--*/ border: 1px solid #000; margin-bottom: -1px; /*--Pull the list item down 1px--*/ overflow: hidden; position: relative; background:#272727; }
+.tab-menu li a { text-decoration: none; color: #fff; display: block; font-size:12px; font-weight:bold; padding:4px 15px 4px 15px; outline: none; text-shadow:0 1px 1px #000; }
+.tab-menu li a:hover { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4); }
+html .tab-menu li.active, html .tab-menu li.active a:hover { /*--Makes sure that the active tab does not listen to the hover properties--*/ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4); border-bottom: 1px solid #171717; /*--Makes the active tab look like it's connected with its content--*/ }
+/*TAB CONTAINER*/
+.tab-container { border:1px solid #000; border-top: none; overflow: hidden; clear:both; float: left; width:638px; margin-bottom:30px; background:none repeat scroll 0 0 rgba(0, 0, 0, 0.4); }
+.tab-content { padding:22px 22px 7px 22px; position:relative; }

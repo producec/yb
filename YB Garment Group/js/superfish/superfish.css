@@ -1,0 +1,87 @@
+nav { float: right; margin: 24px 9px; }
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * { margin: 0; padding: 0; list-style: none; }
+.sf-menu { line-height: 1.0; }
+.sf-menu ul li { width: 100%; }
+.sf-menu li:hover { visibility: inherit; /* fixes IE7 'sticky bug' */ }
+.sf-menu li { float: left; position: relative; }
+.sf-menu a { display: block; position: relative; }
+.sf-menu li:hover ul, .sf-menu li.sfHover ul { left: 0; top: 32px; /* match top ul list item height */ z-index: 99; }
+ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li ul { top: -999em; }
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul { left: 161px; /* match ul width */ top: 0; }
+ul.sf-menu li li:hover li ul, ul.sf-menu li li.sfHover li ul { top: -999em; }
+ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul { left: 10em; /* match ul width */ top: 0; }
+/*** STYLIZATION ***/
+.sf-menu > li { border-top: 1px solid transparent; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; margin-left:5px; background: url('img/zero.png'); }
+.sf-menu > li > a { font: 12px/29px 'OpenSansSemibold'; color: #f9f9f9; padding: 0 12px; text-transform: uppercase; -webkit-text-stroke:1px rgba(249, 249, 249, 0.6); }
+.sf-menu > li:hover, .sf-menu > li.active, .sf-menu > li.sfHover { text-shadow: rgba(0, 0, 0, 0.5) 0 1px 1px; border-top: 1px solid #99ccff; background: url('img/menu-hover.jpg'); -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+.sf-menu ul { position: absolute; top: -999em; width: 160px; padding: 0; background: url('img/sub-menu-bg.jpg'); -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); }
+.sf-menu li li a { font: 12px/24px 'OpenSansSemibold'; color: #fff; text-shadow: none; padding: 0 6px 0 12px; }
+.sf-menu li li { padding: 9px 0 7px 0; background: url('img/sub-menu-boreder.png') repeat-x; }
+.sf-menu li li:first-child { background:none; }
+.sf-menu li li a { margin: 0 3px; }
+.sf-menu li li a:hover, .sf-menu > li li.active a, .sf-menu > li li.sfHover > a { background: url('img/menu-hover.jpg'); -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; color:#fff; }
+.sf-sub-indicator { background: url("img/autoArrows.png") no-repeat scroll 0 0 transparent; display: inline-block; height: 3px; margin-left: 9px; position: relative; text-indent: -999em; top: -2px; width: 5px; }
+.sf-menu li li .sf-sub-indicator { display:none; }
+@media handheld and (max-width: 480px), screen and (max-device-width: 767px), screen and (max-width: 1024px) {
+ .sf-menu > li {
+ margin-left:6px;
+}
+}
+ @media handheld and (max-width: 767px), screen and (max-device-width: 767px), screen and (max-width: 767px) {
+ nav {
+ display: block;
+ float: right;
+ margin: 24px 9px 0;
+ position: relative;
+ width: 296px;
+}
+ .sf-menu {
+float:none;
+margin-bottom:40px;
+}
+ .sf-menu ul, .sf-menu ul ul {
+min-width:100%;
+position: relative;
+left: 0 !important;
+top:0px !important;
+padding:0;
+}
+ .sf-menu li {
+float:none;
+}
+.sf-sub-indicator {
+ background: url("img/autoArrows.png") no-repeat scroll 0 0 transparent;
+ display: inline-block;
+ float: right;
+ height: 3px;
+ left: 0;
+ position: relative;
+ text-indent: -999em;
+ top: 31px;
+ width: 5px;
+}
+ .sf-menu > li li > a > .sf-sub-indicator {
+ left:0px;
+ top:17px;
+ display:inline-block;
+ background: url('img/autoArrows-2.png') no-repeat;
+}
+ .sf-menu > li {
+ margin-bottom: 7px;
+ background: #3d403c url('img/480-menu-bg.jpg') repeat-x;
+ -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+ -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+ .sf-menu > li > a {
+ font: 12px/62px 'OpenSansSemibold';
+}
+ .sf-menu > li li > a {
+ font: 12px/38px 'OpenSansSemibold';
+ padding-left:20px;
+}
+ .sf-menu > li li li > a {
+ padding-left:40px;
+}
+}
