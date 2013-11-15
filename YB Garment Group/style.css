@@ -127,14 +127,19 @@ behavior: url(js/PIE.htc); }
 .blog img, .img-head img, .img-head iframe, .parent img { background: none repeat scroll 0 0 #000; border: 1px solid #333; padding: 4px; }
 .gallery img{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3); border-radius: 6px 6px 6px 6px; -webkit-border-radius: 6px 6px 6px 6px; }
 .blog a:hover img, .gallery a:hover img { border: 1px solid #44a0c7; }
-.blog ul { width: 675px; }
+.blog ul { width: 916px; }
 .blog ul li { float: left; margin: 0 27px 10px 0; width: 195px; }
 .blog ul li h5 a:link, .blog ul li h5 a:visited { font: 14px 'OpenSansSemibold'; }
 .blog ul li h5 a:hover { color: #44a0c7; }
 .blog ul li img { height: 104px; margin-bottom: 8px; width: 185px; }
 .blog label { background: none repeat scroll 0 0 #111; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; display: block; font-size: 11px; font-style: italic; margin-bottom: 15px; padding: 2px 8px; text-shadow: 0 1px 1px #000; behavior: url(js/PIE.htc); }
 .blog label a:link, .blog label a:visited { color: #777; display: inline; font: italic 11px 'arial' !important; }
-.blist ul li { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1); border: 0 none; margin-bottom: 30px; width: 638px; }
+.mission{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1); border: 0 none; margin-bottom: 30px;}
+.missionpic{ float: left; padding: 15px; width: 220px; height:135px;}
+.missionpic img{width:220px; height:135px;}
+.missionpgh h5{padding-top:25px;}
+.missionpgh p{padding-right:25px; font-size:14px;}
+.blist ul li { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1); border: 0 none; margin-bottom: 30px; width: 916px; }
 .blist h5 { margin-bottom: 6px; text-align:center; }
 .desc span { color: #777777; display: block; font-size: 11px; margin-bottom: 10px; text-shadow: 0 1px 1px #000000; text-transform: uppercase; }
 .desc span a:link, .desc span a:visited { color: #999999; display: inline; }
