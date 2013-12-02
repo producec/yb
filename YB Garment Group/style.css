@@ -185,7 +185,7 @@ label.error { display: none !important; }
 .three-columns ul li img { width: 185px; }
 .home-rc .four-columns ul li a { display: block; height: 107px; }
 .home-rc .four-columns ul li h5 { display: block; height: 40px; color:#aaa; width: 190px;}
-.home-rc .four-columns ul li { margin: 0 64px 20px 0; width: 180px; }
+.home-rc .four-columns ul li { margin: 0 64px 0px 0; width: 180px; }
 .home-rc .four-columns ul li img { width: 180px; }
 .blog-list ul li { margin-bottom: 30px; }
 .img-head { margin-bottom: 20px; position: relative; }
@@ -258,6 +258,7 @@ ul li.categorieslast{ border-bottom:none;}
 .googlemap div { margin-bottom: 0; }
 .fullwidth .services ul li { margin: 0 24px 10px 0; width: 211px; }
 .fullwidth .full-services ul li { margin: 0 24px 25px 0; width: 288px; text-align: center; }
+.fullwidth .full-services ul li div {text-align: left; margin-left:60px;}
 .fullwidth .services ul li p { overflow: visible !important; }
 .fullwidth .full-services ul li p { overflow: visible !important; }
 .fullwidth .blist ul { width: 100%; }
