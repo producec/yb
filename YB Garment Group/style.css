@@ -304,7 +304,7 @@ border-radius: 50% 50% 50% 50%; -moz-border-radius: 50% 50% 50% 50%; -webkit-bor
 .lifebuoy li { background: url("img/icons/lifebuoy.png") no-repeat scroll left center transparent; padding-left: 25px; }
 .marker li { background: url("img/icons/marker.png") no-repeat scroll left center transparent; padding-left: 25px; }
 .minus li { background: url("img/icons/minus.png") no-repeat scroll left center transparent; padding-left: 25px; }
-.nav li { background: url("img/icons/navigation.png") no-repeat scroll left center transparent; padding-left: 25px; }
+.nav li { background: url("img/icons/navigation.png") no-repeat scroll left center transparent; padding-left: 25px; margin-bottom:20px;}
 .pin li { background: url("img/icons/pin.png") no-repeat scroll left center transparent; padding-left: 25px; }
 .tick li { background: url("img/icons/tick.png") no-repeat scroll left center transparent; padding-left: 25px; }
 .round { border-radius: 6px 6px 6px 6px; -moz-border-radius: 6px 6px 6px 6px; -webkit-border-radius: 6px 6px 6px 6px; behavior: url(js/PIE.htc); }
@@ -829,3 +829,6 @@ float: right; margin: 0; padding: 0;
 .answer{font-size:14px; padding:0px 15px 0px 15px; margin-bottom:30px; }
 .answerlast{font-size:14px; padding:0px 15px 0px 15px; margin-bottom:0px; }
 
+.hiring{
+margin-bottom:20px;
+}

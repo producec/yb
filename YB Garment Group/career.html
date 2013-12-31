@@ -13,6 +13,7 @@
 <link rel="alternate" type="application/rss+xml" title="#" href="#" />
 <link rel="shortcut icon" href="#" />
 <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.trigger.js"></script>
 <script type="text/javascript" src="js/scrolltop.js"></script>
 <script type="text/javascript" src="js/flickr/jflickrfeed.min.js"></script>
 <script type="text/javascript" src="js/flickr/setup.js"></script>
@@ -20,8 +21,15 @@
 <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
 <script type="text/javascript" src="js/superfish/superfish.js"></script>
+<script type="text/javascript" src="js/tipsy/jquery.tipsy.js"></script>
+<script type='text/javascript'>
+	$(function() {    
+		$('.sociable li a img').tipsy({gravity: 'n'});		
+	});
+</script>
 <script type="text/javascript" src="js/selectbox.js"></script>
 <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+<script type="text/javascript" src="js/hover.js"></script>
 <script type="text/javascript" src="js/jquery.tweet.js"></script>
 <script type="text/javascript">
 	jQuery(function($){
@@ -48,69 +56,50 @@
     <nav>
       <ul class="sf-menu">
         <li><a href="index.html">Home</a></li>
-        <li><a href="Mission & Vision.html">Mission & Vision</a></li>
-		<li><a href="recognition.html">Recognition</a></li>
+        <li><a href="about.html">About</a></li>
+		<li  class="active"><a href="career.html">Career</a></li>
         <li><a href="product.html">Product</a></li>
-        <li  class="active"><a href="procedure.html">Procedure</a></li>
 		<li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <!-- end menu -->
     <div class="clear"></div>
   </div>
-  <!--TOP IMAGE-->
-  <div id="top-image"> <img src="img/procedure-img.jpg" alt="" title="" />
-    <div class="breadcrumb"> <a href="index.html">Home</a> / <span>Procedure</span> </div>
+
+  <!--SLIDER-->
+  <div id="slider">
+    <div id="slideshow"> 
+	   <img src="img/banner/career-img.jpg" alt="" title="" class=""> 
   </div>
-  <!--SITE CONTENTS-->
-  <div id="contents" class="clear">
-    <!--MAIN CONTENT-->
-    <div class="fullwidth">
+
+   <!--HIRING-->
+   <div class="hiring">
+   <img src="img/hiring.png" alt="" title="" class="">
+   </div>
+   
+   <!--MISSION-->
+   <div class="fullwidth">
       <div class="padding-1">
-        <!--FULLWIDTH PAGE-->
-        <div class="welcome" style="padding-bottom:0px;">
-          <h2>F A Q</h2>
-        </div>
-	<div>
-		<div>
-			<div class="question">
-				<h3>Q1</h3>
-				<div>Question question question question question question question?</div>
-			</div>
-			<div class="answer">Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 Answer 1 ...</div>
+	  <div class="welcome">
+        <h2>OPENING POSITION: CLIENTS MANAGER / SALE EXECUTIVE</h2>
+		<ul class="nav">
+        <li> Manage and develop relationships between companies and buyers.</li>
+		<li>Develop maximum sales potential out of existing wholesale customer.</li>
+		<li>Possess great customer service skills.</li>
+		<li>Excellent written and oral communication skills and must be able to time manage.</li>
+		<li>Full of passion and B2B sales experience preferred.</li>
+		</ul>
 		</div>
-		<div>
-		<div class="question">
-			<h3>Q2</h3>
-			<div>Question question question question question question question question?</div>
-		</div>
-		<div class="answer">Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 Answer 2 ...</div>
-		</div>
-    		<div>
-			<div class="question">
-				<h3>Q3</h3>
-				<div>Question question question question question question question question?</div>
-			</div>
-			<div class="answer">Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 Answer 3 ...</div>
-		</div>
-			<div>
-			<div class="question">
-				<h3>Q4</h3>
-				<div>Question question question question question question question question?</div>
-			</div>
-			<div class="answer">Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 Answer 4 ...</div>
-		</div>
-			<div>
-			<div class="question">
-				<h3>Q5</h3>
-				<div>Question question question question question question question question?</div>
-			</div>
-			<div class="answerlast">Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 Answer 5 ...</div>
+		
+		<div class="welcome">
+		<h2>PLEASE CONTACT US:</h2>
+		<ul class="heart">
+		<li>INFO@YBGARMENT.COM</li>
+		</ul>
 		</div>
 	</div>
-	</div>
-    </div>
-  </div>
+</div>
+	  
   <!--FOOTER-->
   <p id="footertop">
 	<a href="#" id="ybToTop" >
@@ -130,8 +119,8 @@
 			</div>
   </div>
 </div>
+
 <!--ENDS HERE-->
-<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>
 
