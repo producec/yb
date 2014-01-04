@@ -233,7 +233,7 @@ SIDEBAR
 .sidebar div, .left div { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.03); margin-bottom: 30px; }
 .sidebar div h5, .left div h5 { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3); -moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; border-color: #59504D; border-style: solid none; border-width: 3px 0 1px; color: #44a0c7; margin-bottom: 0; padding: 8px 15px; position: relative; text-shadow: 0 1px 1px #000000; text-transform: uppercase; }
 .sociable ul, .side-paragraph div, .flickr div, .search div { padding: 20px 15px 10px; }
-.categories ul { padding: 10px 15px 10px 20px; }
+.categories ul { padding: 20px 15px 20px 20px; }
 .sociable ul li { float: left; margin-right: 5px; }
 .googlemap div { padding: 0px; }
 span.arrow { bottom: -4px; height: 4px; left: 20px; position: absolute; width: 9px; }
@@ -242,9 +242,9 @@ span.tail { background: url("img/tail.png") no-repeat scroll 50% 0 transparent; 
 ul li.categorieslast{ border-bottom:none;}
 .categories ul li a:link, .categories ul li a:visited { background: url("img/ball.png") no-repeat scroll transparent; color: #AAAAAA; padding-left: 25px; text-shadow: 0 1px 1px #000000; }
 .categories ul li a:hover { color: #44a0c7; }
-.categories ul li h4 {font-weight:bold; background: url("img/ball.png") no-repeat scroll transparent; padding-left:25px; font-size:16px; margin-bottom:10px; color:#aaa; }
-.categories ul li h5 { color:#44a0c7; font-weight:bold; border:0; background:none; padding:0; text-transform:capitalize;margin-bottom:3px; float:left; }
-.categories ul li p { margin-bottom:5px; }
+.categories ul li h4 {font-weight:bold; background: url("img/ball.png") no-repeat scroll transparent; padding-left:25px; font-size:16px; margin-bottom:20px; color:#aaa; }
+.categories ul li h5 { color:#44a0c7; font-weight:bold; border:0; background:none; padding:0; text-transform:capitalize;margin-bottom:5px; float:left; }
+.categories ul li p { margin-bottom:20px; }
 .side-paragraph div { margin-bottom: 0; }
 .side-paragraph img, .flickr ul li img { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3); border: 1px solid #333333; float: left; margin-right: 12px; margin-top: 4px; padding: 4px; }
 .flickr div { margin: 0; padding-bottom: 0; }
@@ -832,3 +832,6 @@ float: right; margin: 0; padding: 0;
 .hiring{
 margin-bottom:20px;
 }
+
+.map-content { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.04); float: left; width: 916px; padding:0 30px;}
+.maptext{margin-bottom: 30px;}
